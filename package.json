@@ -2,24 +2,30 @@
   "name": "my_first_react_app",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "firebase": "^4.4.0",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "react-scripts": "1.0.14"
-  },
+  "type": "module",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
   },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
-  "main": "index.js",
-  "devDependencies": {},
+  "dependencies": {
+    "firebase": "^13.1.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.2",
+    "jsdom": "^30.1.3",
+    "vite": "^8.3.5",
+    "vitest": "^5.0.5"
+  },
+  "overrides": {
+    "@grpc/grpc-js": "^1.14.6"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/paulfoley/My_First_React_App.git"
+    "url": "git+https://github.com/Soul-Craft/My_First_React_App.git"
   },
   "keywords": [
     "React"
@@ -27,7 +33,7 @@
   "author": "Paul Foley",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/paulfoley/My_First_React_App/issues"
+    "url": "https://github.com/Soul-Craft/My_First_React_App/issues"
   },
-  "homepage": "https://github.com/paulfoley/My_First_React_App#readme"
+  "homepage": "https://github.com/Soul-Craft/My_First_React_App#readme"
 }
